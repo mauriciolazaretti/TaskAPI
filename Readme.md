@@ -3,7 +3,7 @@ na pasta do projeto
 rodar no terminal:
 - docker-compose build
 - docker-compose up -d
-= Tem a collection do postman aqui também.
+- Tem a collection do postman aqui também.
 # parte dois
 Dúvidas:
 - Entraria no escopo Busca das tasks e projetos com vários filtros?
