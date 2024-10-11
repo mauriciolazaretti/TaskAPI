@@ -52,7 +52,7 @@ namespace TaskAPI.Services.Implementations.UnitOfWork
             return new ServiceResponse<List<ReportResponse>>(string.Empty, grpBy.Select(x =>
             {
                 var count = x.ToList().Count;
-                return new ReportResponse(x.Key, (Convert.ToDecimal(count) / Convert.ToDecimal(total)) * 100m);
+                return new ReportResponse(x.Key, (Convert.ToDecimal(count) / Convert.ToDecimal(total)));
             }).ToList());
             
 
