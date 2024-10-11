@@ -1,25 +1,25 @@
 # como rodar
 na pasta do projeto
 rodar no terminal:
-docker-compose build
-docker-compose up -d
-Tem a collection do postman aqui também.
+- docker-compose build
+- docker-compose up -d
+= Tem a collection do postman aqui tambÃ©m.
 # parte dois
-Dúvidas:
-- Entraria no escopo Busca das tasks e projetos com vários filtros?
-- Compartilhamento de projetos com outros usuários
-- Quais integrações externas seriam necessárias?
-- Paginação entraria no escopo dos endpoints?
-- qual a expectativa de carga e de número de usuários?
-- Relatórios personalizados, entraria também?
-# parte três
+DÃºvidas:
+- Entraria no escopo Busca das tasks e projetos com vÃ¡rios filtros?
+- Compartilhamento de projetos com outros usuÃ¡rios
+- Quais integraÃ§Ãµes externas seriam necessÃ¡rias?
+- PaginaÃ§Ã£o entraria no escopo dos endpoints?
+- qual a expectativa de carga e de nÃºmero de usuÃ¡rios?
+- RelatÃ³rios personalizados, entraria tambÃ©m?
+# parte trÃªs
 
 Melhoraria da seguinte forma:
-- Paginação para endpoints para não sobrecarregar a API
-- Criar documentação mais abrangente
+- PaginaÃ§Ã£o para endpoints para nÃ£o sobrecarregar a API
+- Criar documentaÃ§Ã£o mais abrangente
 - Usar cache Redis para reduzir a ida e volta no database
-- Poderia se colocar a adição de tasks numa fila para otimizar performance
-- Histórico de alteração mais detalhado
+- Poderia se colocar a adiÃ§Ã£o de tasks numa fila para otimizar performance
+- HistÃ³rico de alteraÃ§Ã£o mais detalhado
 - Usar a biblioteca dapper para as consultas
 - Melhorar a estrutura do projeto para deixar mais coeso em alguns pontos
-- Testes mais abrangentes além de unitário
+- Testes mais abrangentes alÃ©m de unitÃ¡rio
