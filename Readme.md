@@ -23,3 +23,4 @@ Melhoraria da seguinte forma:
 - Usar a biblioteca dapper para as consultas
 - Melhorar a estrutura do projeto para deixar mais coeso em alguns pontos
 - Testes mais abrangentes além de unitário
+- Poderia mudar para minimal api
